@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CSharpMessagingApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Width="300" Height="600">
+    <Grid Width="300" Height="500">
+        <TextBox Name="tbMessages" HorizontalAlignment="Left" Margin="7,10,0,0" Text="{Binding Path=Messages}" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Width="183" Height="313"/>
+        <TextBox Name="tbCompose" Margin="7,328,10,0" Text="TextBox" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Height="77"/>
+        <Button Name="buttonSend" Content="Send" HorizontalAlignment="Left" Margin="127,410,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click"/>
+        <Button Name="buttonTest" Content="Test" HorizontalAlignment="Left" Margin="127,440,0,0" VerticalAlignment="Top" Width="63" Click="Test_Click"/>
 
     </Grid>
 </Window>

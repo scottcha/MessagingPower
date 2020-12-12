@@ -5,6 +5,9 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+//using Windows.ApplicationModel.Activation;
+//using Windows.UI.Xaml;
+
 
 namespace CSharpMessagingApp
 {
@@ -13,5 +16,11 @@ namespace CSharpMessagingApp
     /// </summary>
     public partial class App : Application
     {
+        //async protected override void OnLaunched(  LaunchActivatedEventArgs args)
+        //{
+
+        //}
+        
+
     }
 }
